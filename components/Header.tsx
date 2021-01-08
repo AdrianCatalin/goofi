@@ -22,6 +22,7 @@ const languageOptions = [
   { value: "csharp", name: "C#" },
   { value: "java", name: "Java" },
   { value: "kotlin", name: "Kotlin" },
+  { value: "php", name: "PHP"},
   { value: "python", name: "Python" },
   { value: "ruby", name: "Ruby" },
   { value: "shell", name: "Shell" },
@@ -29,8 +30,6 @@ const languageOptions = [
   { value: "swift", name: "Swift" },
   { value: "rust", name: "Rust" },
   { value: "ocaml", name: "OCaml" },
-  { value: "php", name: "PHP"},
-  { value: "sql", name: "SQL"}
 ];
 
 const styles: StyleRulesCallback = _ => ({
